@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         playerRigidbody.velocity = newVelocity;
 
     }
-    public void pie()
+    public void Die()
     {
         gameObject.SetActive(false);
 
